@@ -26,7 +26,7 @@ const ProtocolVersion = 2
 const ProtocolType = "grpc"
 
 // List domain (usually localhost)
-const listenIP = "localhost:"
+const listenIP = "0.0.0.0:8443"
 
 // env variable key names for TLS cert path
 const serverCertEnv = "GAIA_PLUGIN_CERT"
